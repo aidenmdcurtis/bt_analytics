@@ -1,0 +1,10 @@
+main: com.aidencurtis.bt_analytics.AnalyticsPlugin
+name: bt_analytics
+version: 1.0
+author: Aiden Curtis
+description: Browntown's Analytics and Feedback Plugin
+commands:
+    feedback:
+        description: A command to leave feedback about the server.
+        permission: bt_analytics.feedback
+        permission-message: You don't have permission to leave feedback on the server.
